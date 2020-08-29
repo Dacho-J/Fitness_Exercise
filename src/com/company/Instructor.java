@@ -11,11 +11,14 @@ public class Instructor extends Employee {
         return super.getHours() * 456;
     }
 
+
     @Override
     public String toString() {
         return "Instructor{" +
                 "name='" + name + '\'' +
                 ", cpr='" + cpr + '\'' +
+                ", hours='" + getHours() + '\'' +
+                ", hours='" + getSalary() + '\'' +
                 '}';
     }
 }
