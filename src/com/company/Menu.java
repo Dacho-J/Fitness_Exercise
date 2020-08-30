@@ -77,7 +77,7 @@ public class Menu {
                 System.exit(0);
             }
             if (number > 4 || number < 0) {
-                System.out.println("\nDet indtastede tal er for højt eller for lavt. Skriv et tal mellem 0-6.");
+                System.out.println("\nDet indtastede tal er for højt eller for lavt. Skriv et tal mellem 0-4.");
                 menuVis();
             }
         } catch (InputMismatchException e) {

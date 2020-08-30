@@ -11,10 +11,6 @@ public class Administration extends Employee {
         vacation = 5;
     }
 
-
-
-
-
     public int getVacation() {
         return vacation;
     }
