@@ -2,9 +2,15 @@ package com.company;
 
 public class Instructor extends Employee {
 
-    public Instructor(String name, String cpr, int hours, int salary) {
-        super(name, cpr, hours, hours);
+    public Instructor(String name, String cpr, int hours) {
+        super(name, cpr);
+        setHours(hours);
+        setSalary(getSalary());
+
     }
+
+
+
 
     @Override
     public int getSalary(){

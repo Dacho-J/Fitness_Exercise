@@ -2,11 +2,13 @@ package com.company;
 
 public class Administration extends Employee {
 
-        int vacation;
+        private int vacation;
 
     public Administration(String name, String cpr) {
         super(name, cpr);
-        this.vacation = 5;
+        setHours(37);
+        setSalary(23000);
+        vacation = 5;
     }
 
 
