@@ -50,6 +50,7 @@ public class Menu {
         System.out.println("----------------------------------");
 
         try {
+            new Vis();
             Scanner scan = new Scanner(System.in);
             System.out.print("\nTast et nummer: ");
             int number = scan.nextInt();
